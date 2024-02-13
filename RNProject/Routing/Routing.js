@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator();
 const Routing = () => {
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName="ToDo">
+            <Stack.Navigator initialRouteName="Login">
                 <Stack.Screen name="Login" component={Login} />
                 <Stack.Screen name="ToDo" component={ToDo} />
             </Stack.Navigator>
